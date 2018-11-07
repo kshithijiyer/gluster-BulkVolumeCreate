@@ -55,12 +55,12 @@ BulkVolumeCreate --config_file example.conf --type rep --expression 3x3 --number
 ```
 ### Expression definition 
 This is how you write expressions for BulkVolumeCreate which defines what will be the configuration for the volumes. 
-| No. | Type | Expression | 
-| --- | --- | --- |
-| 1 | dist | N |
-| 2 | rep | AxB |
-| 3 | arb| AxB+C|
-| 4 | ec |AxD+R|
+|No.|Type|Expression| 
+|---|---|---|
+|1.|dist|N|
+|2.|rep|AxB|
+|3.|arb| AxB+C|
+|4.|ec|AxD+R|
 
 For more info do a ``` BulkVolumeCreate --help ``` or ``` BulkVolumeCreate -h ```.
 
