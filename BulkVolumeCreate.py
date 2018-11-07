@@ -1,10 +1,10 @@
 #!/usr/bin/python
 """
 
-BulkVolumeCreate - Create Glusterfs Volume in bulk.
+BulkVolumeCreate
 
 Description:
-A tool to generate large number of glusterfs volumes.
+A tool to generate a large number of glusterfs volumes.
 
 Supported volume types:
 1) Distribute
@@ -120,7 +120,7 @@ def create_ec_volume(hosts_To_bricks,Number_of_bricks,vol_name,disperse_params):
 def main():
    
    #Setting up command line arguments.
-   parser=argparse.ArgumentParser(description="Create Glusterfs volumes in bulk.")
+   parser=argparse.ArgumentParser(description="A tool to generate a large number of glusterfs volumes.")
    parser.add_argument('-f',"--confg_file",type=str,required=True,dest="Config_File",help="config file with hostnames and brick paths")
    parser.add_argument('-t',"--type",type=str,default="dist",dest="Volume_type",choices=["ec","dist","rep","arb"],help="type of volumes to be created")
    parser.add_argument('-e',"--expression",type=str,default="None",dest="Expression",help="expression to define the configuration of the volume")

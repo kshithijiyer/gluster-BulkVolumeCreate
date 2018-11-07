@@ -9,10 +9,8 @@ setup(
     author_email = 'kshithij.ki@gmail.com',
     url='https://github.com/kshithijiyer/gluster-BulkVolumeCreate/',
     license = 'BSD',
-    description = ("A tool to generate large number of glusterfs volumes."),
+    description = ("A tool to generate a large number of glusterfs volumes."),
     py_modules = ['BulkVolumeCreate','version'],
-    install_requires = [""],
-    requires = [""],
     entry_points = """
     [console_scripts]
     BulkVolumeCreate = BulkVolumeCreate:main
