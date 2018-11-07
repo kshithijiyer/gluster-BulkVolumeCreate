@@ -2,8 +2,8 @@
 A tool to generate a large number of glusterfs volumes.
 
 ## Prerequisites
-Python 3.x
-Running gluster cluster.
+1. Python 3.x
+2. Running gluster cluster
 
 
 ## Installation
