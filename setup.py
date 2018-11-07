@@ -7,7 +7,7 @@ setup(
     version = __version__,
     author = 'Kshithij Iyer',
     author_email = 'kshithij.ki@gmail.com',
-    url='https://github.com/vijaykumar-koppad/Crefi',
+    url='https://github.com/kshithijiyer/gluster-BulkVolumeCreate/',
     license = 'BSD',
     description = ("A tool to generate large number of glusterfs volumes."),
     py_modules = ['BulkVolumeCreate','version'],
